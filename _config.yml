@@ -1,7 +1,7 @@
 # Setup
-title:            Modbrella
+title:            Modbrella | Inside-Out Umbrella
 tagline:          Modern inside-out umbrellas
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      The Modbrella is functional and innovative. It’s inverted design is easy to use and makes it stress free while you get in and out of your car, and prevents dripping by keeping water inside the umbrella when it is closed.
 url:              http://modbrella.com
 baseurl:          /
 
@@ -9,10 +9,4 @@ author:
   name:           'Modbrella'
   url:            https://modbrella.com
 
-paginate:         5
-
-# Custom vars
-version:          2.1.0
-
-github:
-  repo:           https://github.com/modbrella/modbrella.github.io
+  time:           2016

@@ -3,35 +3,47 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
+<h2>Our Modbrella Line Up</h2>
+<section class="showcase-grid">
+  <div class="section group">
+    <div class="col span_1_of_3">
+      Black
+      <img src="public/img/black-open.jpg">
+    </div>
+    <div class="col span_1_of_3">
+      Blue
+      <img src="public/img/blue-open.jpg">
+    </div>
+    <div class="col span_1_of_3">
+      Red
+      <img src="public/img/red-open.jpg">
+    </div>
   </div>
-  {% endfor %}
-</div>
+</section>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<section class="showcase-features">
+  <h3>Features</h3>
+  <ul>
+    <li>
+        Innovative, inverted design prevents dripping and friendly to crowded spaces
+    </li>
+    <li>
+        Double layered canopy with mesh inserts prevents flipping
+    </li>
+    <li>
+        Metal shaft and carbon fibre ribs are lightweight and durable
+    </li>
+    <li>
+        C-shaped padded handle allows for comfortable, hands-free use
+    </li>
+    <li>
+        Easy, manual open and close with button lock
+    </li>
+  </ul>
+</section>
+
+<footer>
+  <p> Made with ♡ by <a href="http://shuura.com">Shuura</a>.<br>
+  Contact us at <a href="mailto:hello@shuura.com">hello@shuura.com</a>.<br>
+  &copy; 2016-2017</p>
+</footer>
